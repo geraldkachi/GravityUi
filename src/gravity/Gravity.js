@@ -1,4 +1,5 @@
 import React from "react";
+import HeroGravity from "./HeroGravity";
 import NavGravity from "./NavGravity";
 
 const Gravity = () => {
@@ -6,6 +7,7 @@ const Gravity = () => {
     <>
       <div>
         <NavGravity />
+        <HeroGravity />
       </div>
     </>
   );
