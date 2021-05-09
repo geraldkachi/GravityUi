@@ -4,6 +4,7 @@ import NavGravity from "./NavGravity";
 import SolveGravity from "./SolveGravity";
 import ServicesGravity from "./ServicesGravity";
 import SuperGravity from "./SuperGravity";
+import DiscoverGravity from "./DiscoverGravity";
 
 const Gravity = () => {
   return (
@@ -14,6 +15,7 @@ const Gravity = () => {
         <SolveGravity />
         <ServicesGravity />
         <SuperGravity />
+        <DiscoverGravity />
       </div>
     </>
   );

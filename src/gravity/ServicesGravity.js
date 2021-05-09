@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { ReactComponent as slider1 } from "./assets/slider1.svg";
-import { ReactComponent as Slider2 } from "./assets/slider2.svg";
+import { ReactComponent as ArrorR } from "./assets/Arrow right.svg";
+import { ReactComponent as ArrowLL } from "./assets/Arrow left.svg";
 
 import {
   Col,
@@ -113,6 +113,12 @@ const ServicesGravity = () => {
                 // onClickHandler={goToIndex}
               />
               {slides}
+
+              <div className="my-4">
+              <ArrowLL />
+              {' '}
+              <ArrorR />
+              </div>
               {/* <CarouselControl
                 direction="prev"
                 directionText="Previous"

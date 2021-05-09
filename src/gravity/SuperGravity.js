@@ -11,10 +11,10 @@ const SuperGravity = () => {
       <div className="container">
         <Row>
           <Col sm="6">
-              <img className="img-fluid position-absolute" src={Superimg} alt="Superimg" />
-              <img className="img-fluid position-absolute" src={SuperRed} alt="SuperRed" />
+              <img className="img-fluid" src={Superimg} alt="Superimg" />
+              <img className="img-fluid position-absolute" style={{top: 70, left: 100}} src={SuperRed} alt="SuperRed" />
           </Col>
-          <Col sm="6">
+          <Col sm="6" className="p-5 d-flexjustify-content-center align-items-center">
               <h3 className="my-3">Well thought with super easy to use</h3>
               <p className="my-3">As we approached the palace I could see through the great windows of the first floor the brilliantly illuminated audience chamber of Than Kosis. The immense hall was crowded with nobles and their women.</p>
               <div className="my-5">
