@@ -15,21 +15,21 @@ const LandCom = () => {
       <hr className="w-75" />
       <Container className="container text-center mx-auto my-5">
         <Row>
-          <Col>
-            <Airbnb className=" my-3" />
+          <Col sm="2">
+            <Airbnb className="img-fluid my-3" />
           </Col>
-          <Col>
-            <Hubspot className=" mx-2 my-3" />
+          <Col sm="2">
+            <Hubspot className="img-fluid mx-2 my-3" />
+          </Col >
+          <Col><Google className="img-fluid mx-2 my-3"  /></Col>
+          <Col sm="2">
+            <Microsoft className="img-fluid mx-2 my-3" />
           </Col>
-          <Col><Google className=" mx-2 my-3"  /></Col>
-          <Col>
-            <Microsoft className=" mx-2 my-3" />
+          <Col sm="2">
+            <Walmart className="img-fluid mx-2 my-3" />
           </Col>
-          <Col>
-            <Walmart className=" mx-2 my-3" />
-          </Col>
-          <Col>
-            <FedEx className=" mx-2 my-3" />
+          <Col sm="2">
+            <FedEx className="img-fluid mx-2 my-3" />
           </Col>
         </Row>
       </Container>

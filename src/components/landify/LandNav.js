@@ -36,26 +36,26 @@ const LandNav = () => {
             <Collapse isOpen={isOpen} navbar>
               <Nav className="mr-auto my-2 mt-3" navbar>
                 <NavItem className="my-2 mx-2">
-                <Link style={styleheader} to="/" >
+                <Link style={styleheader} to="/gravity" >
                     <div>About</div>
                   </Link>
                 </NavItem>
                 <NavItem  className="my-2 mx-2">
-                  <Link style={styleheader} to="/">
+                  <Link style={styleheader} to="/gravity">
                     <div>Products</div>
                   </Link>
                 </NavItem>
                 <NavItem  className="my-2 mx-2">
-                  <Link style={styleheader} to="/"><div>Pricing</div></Link>
+                  <Link style={styleheader} to="/gravity"><div>Pricing</div></Link>
                 </NavItem>
                 <NavItem  className="my-2 mx-2">
-                  <Link style={styleheader} to="/"><div>Blog</div></Link>
+                  <Link style={styleheader} to="/gravity"><div>Blog</div></Link>
                 </NavItem>
                 <NavItem  className="my-2 mx-2">
-                  <Link style={styleheader} to="/"><div>jobs</div></Link>
+                  <Link style={styleheader} to="/gravity"><div>jobs</div></Link>
                 </NavItem>
                 <NavItem  className="my-2 mx-2">
-                  <Link style={styleheader} to="/"><div>More</div></Link>
+                  <Link style={styleheader} to="/gravity"><div>More</div></Link>
                 </NavItem>
 
               </Nav>

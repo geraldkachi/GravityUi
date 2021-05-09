@@ -17,7 +17,7 @@ import RouteNavbar from "./components/RouteNavbar";
 import "./App.css";
 // import ReactFormik from "./components/reactform/ReactFormik";
 // import ReactHookForm from "./components/reactform/ReactHookForm";
-// import LandifyApp from "./components/landify/LandifyApp";
+import LandifyApp from "./components/landify/LandifyApp";
 import Gravity from "./gravity/Gravity";
 
 const App = () => {
@@ -25,8 +25,8 @@ const App = () => {
     <>
       {/* <RouteNavbar /> */}
       <Switch>
-        <Route exact path="/" component={Gravity} />
-        {/* <Route exact path="/" component={LandifyApp} /> */}
+        <Route exact path="/" component={LandifyApp} />
+        <Route exact path="/gravity" component={Gravity} />
         {/* <Route exact path="/about" component={About} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/signin" component={SignIn} />
