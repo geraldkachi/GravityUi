@@ -12,16 +12,18 @@ import { Container, Row, Col } from "reactstrap";
 const LandCom = () => {
   return (
     <>
-      <hr className="w-75" />
-      <Container className="container text-center mx-auto my-5">
+      <Container className="text-center mx-auto my-5">
+        <hr className="w-75" />
         <Row>
           <Col sm="2">
             <Airbnb className="img-fluid my-3" />
           </Col>
           <Col sm="2">
             <Hubspot className="img-fluid mx-2 my-3" />
-          </Col >
-          <Col><Google className="img-fluid mx-2 my-3"  /></Col>
+          </Col>
+          <Col>
+            <Google className="img-fluid mx-2 my-3" />
+          </Col>
           <Col sm="2">
             <Microsoft className="img-fluid mx-2 my-3" />
           </Col>
@@ -32,8 +34,8 @@ const LandCom = () => {
             <FedEx className="img-fluid mx-2 my-3" />
           </Col>
         </Row>
+        <hr className="w-75" />
       </Container>
-      <hr className="w-75" />
     </>
   );
 };

@@ -15,9 +15,9 @@ const NavGravity = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div>
-      <Navbar color="white" light expand="md container-md d-flex d-row justify-content-between">
-        <NavbarBrand href="/" style={{ backgroundColo: "#222222", fontWeight: '74.31px' }}>
+    <div style={{backgroundColor:"#F4F4F4"}}>
+      <Navbar style={{backgroundColor:"#F4F4F4"}} expand="md container-md d-flex d-row justify-content-between">
+        <NavbarBrand href="/" style={{ color: "#222222", fontWeight: '74.31px' }}>
           Gravity
         </NavbarBrand>
         <SearchIcon isOpen={isOpen}  className="" />

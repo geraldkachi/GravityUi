@@ -77,7 +77,7 @@ const ServicesGravity = () => {
             </div>
         </Col>
         <Col md="6" className="my-3">
-                <div className="row justify-content-center">
+                <div className="row justify-content-start">
                         <ul className="">
                           <li className="text-muted my-3 mx-3">Multimedia</li>
                           <li className="text-muted my-3 mx-3">Interactive design</li>
@@ -116,8 +116,8 @@ const ServicesGravity = () => {
 
               <div className="my-4">
               <ArrowLL />
-              {' '}
-              <ArrorR />
+              
+              <ArrorR className="ml-3" />
               </div>
               {/* <CarouselControl
                 direction="prev"
