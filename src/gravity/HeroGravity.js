@@ -6,8 +6,8 @@ import { Col,Row } from 'reactstrap';
 
 const HeroGravity = () => {
     return (
-        <div >
-            <div className="container pt-3">
+        <>
+            <div className="container pt-3 w-100">
                 <Row className="mx-auto justify-content-betweenr">
                     <Col sm="6" className="px-0 col-md-6 my-3">
                         <div className="pt-3" style={{position:''}}>
@@ -31,7 +31,7 @@ const HeroGravity = () => {
                     </Col>
                 </Row>
             </div>
-        </div>
+        </>
     )
 }
 
