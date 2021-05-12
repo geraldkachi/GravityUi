@@ -10,7 +10,7 @@ const SuperGravity = () => {
     <div className="my-5">
       <div className="container">
         <Row>
-          <Col sm="6">
+          <Col sm="6" className='overflow-hidden'>
               <img className="img-fluid" src={Superimg} alt="Superimg" />
               <img className="img-fluid position-absolute" style={{top: 70, left: 100}} src={SuperRed} alt="SuperRed" />
           </Col>
