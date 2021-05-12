@@ -14,7 +14,7 @@ const ClientsGravity = () => {
   
   return (
     <>  
-      <div className="container my-3">  
+      <div className="container my-5">  
         <Row className="mx-0">
           <Col md="6" className="overflow-hidden">
               <div>
@@ -30,7 +30,7 @@ const ClientsGravity = () => {
             </div>
           </Col>
         </Row>
-        <Row className="justify-content-between align-items-center my-3 mx-0 overflow-hidden">
+        <Row className="justify-content-between align-items-center my-5 mx-0 overflow-hidden">
           <Col>
             <img src={xiaomi} className="img-fluid my-3" />
           </Col>
@@ -52,12 +52,12 @@ const ClientsGravity = () => {
        
         <Row className="mx-0" style={{backgroundColor:'#515151'}}>
        <div className="container">
-              <div className="row justify-content-center  align-items-center">
+              <div className="row justify-content-center align-items-center my-5">
                   <Col className="col-auto">
                     <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
                   </Col>
 
-                  <Col className="col-md-6 col-12 align-items-center">
+                  <Col className="col-md-6 col-12 align-items-center overflow-hidden">
                   <div className="d-flex justify-content-between align-items-center mx-auto pt-3 col-sm-4 text-center">
                     <p className="mx-1 text-white">Travel</p>
                     <p className="mx-1 text-white">Explore</p>
@@ -73,9 +73,9 @@ const ClientsGravity = () => {
                   <button className="btn btn-md mx-1 rounded-0 py-1 ml-3" style={{color:"#fff", backgroundColor:"#C6B393", width:'100px'}}>SEND</button>
                 </Col>
               </div>
+            <hr style={{borderColor:'#FFFFFF'}} />
       </div>
-          <hr className="container" style={{borderColor:'#FFFFFF, 100%'}} />
-        </Row>
+        </Row >
 
         <div style={{backgroundColor:'#515151'}} className='py-3'>
           <div  className="container">

@@ -8,6 +8,17 @@ const HeroGravity = () => {
     return (
         <>
             <div className="container pt-3 w-100">
+            <style>
+              {`@media screen and ( 567px ) {
+                boom {
+                    dispplay: 100%;
+                    width: 825px;
+                    height: 500px;
+                    background: black;
+                }
+                }
+               `}
+            </style>
                 <Row className="mx-auto justify-content-betweenr">
                     <Col sm="6" className="px-0 col-md-6 my-3">
                         <div className="pt-3" style={{position:''}}>

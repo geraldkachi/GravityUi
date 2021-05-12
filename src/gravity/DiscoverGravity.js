@@ -15,10 +15,8 @@ const DiscoverGravity = () => {
         <div className="container">
         <Row className="justify-content-between my-5">
           <Col md="6" className="my-3">
-              <div>
                   <div className="lead my-3">— our works</div>
                   <div className="h1">Discover our Work</div>
-              </div>
           </Col>
           <Col md="6" className="my-3 w-100 d-flex justify-content-center align-items-end">
                   <div className="row justify-content-center align-items-center text-center">
@@ -30,20 +28,20 @@ const DiscoverGravity = () => {
                   </div>
           </Col>
         </Row>
-            <Row className="d-flex justify-content-center align-items-center w-100 text-center">
-                    <div className="col-md-3 "><img src={discover1} alt="discover1" className="my-3 img-fluid" /></div>
-                    <div className="col-md-3 "><img src={discover2} alt="discover2" className="my-3 img-fluid" /></div>
-                    <div className="col-md-3 "> 
+            <Row className="d-flex justify-content-center align-items-center text-center">
+                    <div className="col-md-4"><img src={discover1} alt="discover1" className="my-3 img-fluid" /></div>
+                    <div className="col-md-4"><img src={discover2} alt="discover2" className="my-3 img-fluid" /></div>
+                    <div className="col-md-4"> 
                         <div>
-                            <img src={discover3} style={{ height:'8000%', width:"8000%"}} className="img-fluid" alt="1" /> 
+                            <img src={discover3} className="img-fluid"  style={{ height:'8000%', width:"8000%"}} alt="1" /> 
                         </div>
-                        <img src={discover31} className="img-fluid position-absolute" style={{top: 100, left: 100, }} alt="31" /> 
+                        <img src={discover31} className="img-fluid position-absolute text-center" style={{top: 100, left: 100, }} alt="31" /> 
                     </div>
             </Row>
-            <Row  className="justify-content-center align-items-center my-3" >
-                    <div className="col-md-3 "><img src={discover4} alt="discover4" className="my-3 img-fluid" /></div>
-                    <div className="col-md-3 "><img src={discover5} alt="discover5" className="my-3 img-fluid" /></div>
-                    <div className="col-md-3 "><img src={discover6} alt="discover6" className="my-3 img-fluid" /></div>
+            <Row  className="justify-content-center align-items-center text-center my-3" >
+                    <div className="col-md-4"><img src={discover4} alt="discover4" className="my-3 img-fluid" /></div>
+                    <div className="col-md-4"><img src={discover5} alt="discover5" className="my-3 img-fluid" /></div>
+                    <div className="col-md-4"><img src={discover6} alt="discover6" className="my-3 img-fluid" /></div>
             </Row>
             <Row  className="justify-content-between my-5">
                 <Col md="8" className="my-3">
