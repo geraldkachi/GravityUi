@@ -22,7 +22,7 @@ const Gravity = () => {
           <SuperGravity />
           <DiscoverGravity />
           <TestimonialsGravity />
-          <ClientsGravity />
+          <ClientsGravity />                       
         </div>
       </div>
     </>

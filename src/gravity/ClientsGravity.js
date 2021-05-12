@@ -51,30 +51,33 @@ const ClientsGravity = () => {
 
        
         <Row className="mx-0" style={{backgroundColor:'#515151'}}>
-       <div className="container d-flex justify-content-center align-items-center">
-              <Col md="2">
-                <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
-              </Col>
-              <Col md="6">
-              <div className="d-flex justify-content-between align-items-center mx-auto pt-3 col-sm-4">
-                <p className="mx-1 text-white">Travel</p>
-                <p className="mx-1 text-white">Explore</p>
-                <p className="mx-1 text-white">Works</p>
-                <p className="mx-1 text-white">About Us</p>
-                <p className="mx-1 text-white">Contacts</p>
+       <div className="container">
+              <div className="row justify-content-center  align-items-center">
+                  <Col className="col-auto">
+                    <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
+                  </Col>
+
+                  <Col className="col-md-6 col-12 align-items-center">
+                  <div className="d-flex justify-content-between align-items-center mx-auto pt-3 col-sm-4 text-center">
+                    <p className="mx-1 text-white">Travel</p>
+                    <p className="mx-1 text-white">Explore</p>
+                    <p className="mx-1 text-white">Works</p>
+                    <p className="mx-1 text-white">About Us</p>
+                    <p className="mx-1 text-white">Contacts</p>
+                  </div>
+                  </Col>
+
+
+                <Col className="d-flex align-items-center col-auto overflow-hidden text-end">
+                  <input type="text" placeholder="Your email" className='form-control px-4 py-1 border-1' style={{color:"#222222", backgroundColor:"#F5F4FF", width:'170px'}} />
+                  <button className="btn btn-md mx-1 rounded-0 py-1 ml-3" style={{color:"#fff", backgroundColor:"#C6B393", width:'100px'}}>SEND</button>
+                </Col>
               </div>
-              </Col>
-
-
-            <Col md="2" className="d-flex align-items-center col-md-6 overflow-hidden text-end">
-              <input type="text" placeholder="Your email" className='px-4 py-1 border-1' style={{color:"#222222", backgroundColor:"#F5F4FF", width:'170px'}} />
-              <button className="btn btn-md mx-1 rounded-0 py-1 ml-3" style={{color:"#fff", backgroundColor:"#C6B393", width:'100px'}}>SEND</button>
-            </Col>
       </div>
+          <hr className="container" style={{borderColor:'#FFFFFF, 100%'}} />
         </Row>
 
         <div style={{backgroundColor:'#515151'}} className='py-3'>
-          <hr className="container" style={{borderColor:'#FFFFFF, 100%'}} />
           <div  className="container">
             <Row className="row justify-content-between align-items-center">
             <div className='d-flex col mt-3 justify-content-center'>
