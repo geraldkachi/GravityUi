@@ -18,7 +18,7 @@ const LandHero = () => {
           <div class="col-md-7" style={{ backgroundColor: "white" }}>
                 <div className="justify-content-center align-items-center my-5">
                   <h1
-                    className="display-4"
+                    className="display-4 pr-5"
                     style={{
                       // fontWeight: 800,
                       fontSize: "70px",
@@ -27,7 +27,6 @@ const LandHero = () => {
                       // fontFamily: "",
                       backgroundColor:"white",
                     }}
-                    className="pr-5"
                   >
                     Organise projects. Get more done.
                   </h1>
