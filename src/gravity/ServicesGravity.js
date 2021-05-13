@@ -6,7 +6,7 @@ import Slide2  from "./assets/slide2.png";
 
 import { Col, Row } from "reactstrap";
 
-const ServicesGravity = () => {
+const ServicesGravity = () => {  
 
 
   return (
