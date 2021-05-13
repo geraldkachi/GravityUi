@@ -1,5 +1,4 @@
 import React from "react";
-import { Card } from "reactstrap";
 import { ReactComponent as LogoHero } from "../../assest/images/Phone.svg";
 
 const btnColor = {
@@ -8,7 +7,6 @@ const btnColor = {
   fontSize: "20px",
   width:"196px",
   height:'62px',
-  // fontFamily: 'Manrope',
   marginTop: "32px",
   marginBottom: "32px",
 };

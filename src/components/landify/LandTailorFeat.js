@@ -13,7 +13,7 @@ const LandTailorFeat = ({ data }) => {
         const { title, svg, subtitle } = item;
         return (
           <div key={index} style={Featstyle} className="text-center container">
-            <img className="text-center my2" src={svg} alt="" />
+            <img className="text-center my2" src={svg} alt="ss" />
             <div className="text-center my2">{title}</div>
             <div className="text-center my2">{subtitle}</div>
           </div>

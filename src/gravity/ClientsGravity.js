@@ -32,19 +32,19 @@ const ClientsGravity = () => {
         </Row>
         <Row className="justify-content-between align-items-center my-5 mx-0 overflow-hidden">
           <Col>
-            <img src={xiaomi} className="img-fluid my-3" />
+            <img alt='img' src={xiaomi} className="img-fluid my-3" />
           </Col>
           <Col>
-            <img src={tinder} className="img-fluid mx-2 my-3" />
+            <img alt='img' src={tinder} className="img-fluid mx-2 my-3" />
           </Col>
           <Col>
-            <img src={apple} className="img-fluid mx-2 my-3" />
+            <img alt='img' src={apple} className="img-fluid mx-2 my-3" />
           </Col>
           <Col>
-            <img src={nike} className="img-fluid mx-2 my-3" />
+            <img alt='img' src={nike} className="img-fluid mx-2 my-3" />
           </Col>
           <Col>
-            <img src={amd} className="img-fluid mx-2 my-3" />
+            <img alt='img' src={amd} className="img-fluid mx-2 my-3" />
           </Col>
         </Row>
       </div>
@@ -54,7 +54,7 @@ const ClientsGravity = () => {
           <div className="container">
                   <div className="row justify-content-center align-items-center my-2">
                       <div className="col-auto">
-                        <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
+                        <img src={FooterLogo} style={{ color: "white" }} alt="img" className="img-fluid" />
                       </div>
 
                       <Col className="col-md-6 col-12 align-items-center overflow-hidden">
