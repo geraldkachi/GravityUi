@@ -20,7 +20,7 @@ const SolveGravity = () => {
             <div className="my-3">
                 <div className="row my-5 ml-1 align-items-center">
                   <div className="mb-3">
-                    <img src={img1} className="img-fluid" />
+                    <img src={img1} alt="hmm" className="img-fluid" />
                   </div>
                   <div className="ml-4 my-5">
                       <h6 style={{fontSize:'16px'}}>Denis Shepovalov</h6>

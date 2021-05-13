@@ -50,45 +50,44 @@ const ClientsGravity = () => {
       </div>
 
        
-        <Row className="mx-0" style={{backgroundColor:'#515151'}}>
-       <div className="container">
-              <div className="row justify-content-center align-items-center my-5">
-                  <Col className="col-auto">
-                    <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
-                  </Col>
+        <Row className="mx-0 py-3" style={{backgroundColor:'#515151'}}>
+          <div className="container">
+                  <div className="row justify-content-center align-items-center my-2">
+                      <div className="col-auto">
+                        <img src={FooterLogo} style={{ color: "white" }} className="img-fluid" />
+                      </div>
 
-                  <Col className="col-md-6 col-12 align-items-center overflow-hidden">
-                  <div className="d-flex justify-content-between align-items-center mx-auto pt-3 col-sm-4 text-center">
-                    <p className="mx-1 text-white">Travel</p>
-                    <p className="mx-1 text-white">Explore</p>
-                    <p className="mx-1 text-white">Works</p>
-                    <p className="mx-1 text-white">About Us</p>
-                    <p className="mx-1 text-white">Contacts</p>
+                      <Col className="col-md-6 col-12 align-items-center overflow-hidden">
+                      <div className="d-flex justify-content-center align-items-center  pt-3 text-center">
+                        <p className="mx-1 text-white">Travel</p>
+                        <p className="mx-1 text-white">Explore</p>
+                        <p className="mx-1 text-white">Works</p>
+                        <p className="mx-1 p-2 text-white">About Us</p>
+                        <p className="mx-1 text-white">Contacts</p>
+                      </div>
+                      </Col>
+
+                    <Col className="d-flex align-items-center col-auto overflow-hidden text-end">
+                      <input type="text" placeholder="Your email" className='form-control px-4 py-1 border-1' style={{color:"#222222", backgroundColor:"#F5F4FF", width:'170px'}} />
+                      <button className="btn btn-md mx-1 rounded-0 py-1 ml-3" style={{color:"#fff", backgroundColor:"#C6B393", width:'100px'}}>SEND</button>
+                    </Col>
                   </div>
-                  </Col>
-
-
-                <Col className="d-flex align-items-center col-auto overflow-hidden text-end">
-                  <input type="text" placeholder="Your email" className='form-control px-4 py-1 border-1' style={{color:"#222222", backgroundColor:"#F5F4FF", width:'170px'}} />
-                  <button className="btn btn-md mx-1 rounded-0 py-1 ml-3" style={{color:"#fff", backgroundColor:"#C6B393", width:'100px'}}>SEND</button>
-                </Col>
-              </div>
-            <hr style={{borderColor:'#FFFFFF'}} />
-      </div>
-        </Row >
+          </div>
+        </Row>
 
         <div style={{backgroundColor:'#515151'}} className='py-3'>
           <div  className="container">
+                <hr style={{borderColor:'#FFFFFF'}} />
             <Row className="row justify-content-between align-items-center">
-            <div className='d-flex col mt-3 justify-content-center'>
-              <p className='text-muted mx-2'>Terms</p>
-              <p className='text-muted mx-2'>Promo</p>
-              <p className='text-muted mx-2'>Download</p>
-              <p className='text-muted mx-2'>News</p>
-            </div>
-            <div className='col text-center'>
-                <Social />
-            </div>
+                <div className='d-flex col mt-3 justify-content-center'>
+                  <p className='text-muted mx-2'>Terms</p>
+                  <p className='text-muted mx-2'>Promo</p>
+                  <p className='text-muted mx-2'>Download</p>
+                  <p className='text-muted mx-2'>News</p>
+                </div>
+                <div className='col text-center'>
+                    <Social />
+                </div>
             </Row>
           </div>
         </div>

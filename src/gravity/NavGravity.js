@@ -1,12 +1,5 @@
 import React, { useState } from "react";
-import {
-  Collapse,
-  Navbar,
-  NavbarToggler as MenuIconBar,
-  NavbarBrand,
-  Nav,
-  NavbarText,
-} from "reactstrap";
+import { Navbar, NavbarBrand } from "reactstrap";
 import { ReactComponent as SearchIcon } from "./assets/Search Icon.svg";
 import { ReactComponent as MenuIcon } from "./assets/Menu Icon.svg";
 
@@ -15,18 +8,24 @@ const NavGravity = () => {
 
   const toggle = () => setIsOpen(!isOpen);
   return (
-    <div style={{backgroundColor:"#F4F4F4"}}>
-      <Navbar style={{backgroundColor:"#F4F4F4"}} expand="md container-md d-flex d-row justify-content-between">
-        <NavbarBrand href="/" style={{ color: "#222222", fontWeight: '74.31px' }}>
+    <div style={{ backgroundColor: "#F4F4F4" }}>
+      <Navbar
+        style={{ backgroundColor: "#F4F4F4" }}
+        expand="md container-md d-flex d-row justify-content-between"
+      >
+        <NavbarBrand
+          href="/landify"
+          style={{ color: "#222222", fontWeight: "74.31px" }}
+        >
           Gravity
         </NavbarBrand>
-        <SearchIcon isOpen={isOpen}  className="" />
+        <SearchIcon isOpen={isOpen} className="" />
         {/* <Collapse  navbar>
           <Nav className="mr-auto" navbar>
             <SearchIcon className="" />
           </Nav>
         </Collapse> */}
-        <MenuIcon onClick={toggle} className="d-sm-none d-md-block" />
+        <MenuIcon to='/landify' onClick={toggle} className="d-sm-none d-md-block" />
       </Navbar>
     </div>
   );

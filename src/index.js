@@ -5,19 +5,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter } from "react-router-dom";
-import {createStore } from "redux"
-import {Provider} from "react-redux"
-import RootReducer from "./reducers/RootReducer"
 
-const store = createStore(RootReducer)
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store}>     
       <BrowserRouter>
         <App />
       </BrowserRouter>
-    </Provider>
   </React.StrictMode>,
   document.getElementById("root")
 );

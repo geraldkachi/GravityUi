@@ -1,70 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import { ReactComponent as ArrorR } from "./assets/Arrow right.svg";
 import { ReactComponent as ArrowLL } from "./assets/Arrow left.svg";
+import Slider1  from "./assets/slideone.png";
+import Slide2  from "./assets/slide2.png";
 
-import {
-  Col,
-  Row,
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption,
-} from "reactstrap";
-
-const items = [
-  {
-    id: 1,
-    altText: "Slide 1",
-    caption: "Slide 1",
-  },
-  {
-    id: 2,
-    altText: "Slide 2",
-    caption: "Slide 2",
-  },
-  {
-    id: 3,
-    altText: "Slide 3",
-    caption: "Slide 3",
-  },
-];
+import { Col, Row } from "reactstrap";
 
 const ServicesGravity = () => {
-
-  const [activeIndex, setActiveIndex] = useState(0);
-  const [animating, setAnimating] = useState(false);
-
-  const next = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const previous = () => {
-    if (animating) return;
-    const nextIndex = activeIndex === 0 ? items.length - 1 : activeIndex - 1;
-    setActiveIndex(nextIndex);
-  };
-
-  const goToIndex = (newIndex) => {
-    if (animating) return;
-    setActiveIndex(newIndex);
-  };
-
-  const slides = items.map((item) => {
-    return (
-      <CarouselItem
-        className="custom-tag"
-        tag="div"
-        key={item.id}
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-      >
-        <CarouselCaption className="text-danger" />
-      </CarouselItem>
-    );
-  });
 
 
   return (
@@ -106,30 +48,18 @@ const ServicesGravity = () => {
                   list-style: none;
                 }`}
             </style>
-            <Carousel activeIndex={activeIndex} next={next} previous={previous}>
-              <CarouselIndicators
-                items={items}
-                // activeIndex={activeIndex}
-                // onClickHandler={goToIndex}
-              />
-              {slides}
-
-              <div className="my-4">
-              <ArrowLL />
-              
-              <ArrorR className="ml-3" />
+                <div className="container">
+                  <div className="d-flex justify-content-center">
+                    <img className="img-fluid mr-5 overflow-hidden" src={Slider1} alt="slide" />
+                    <img className="img-fluid overflow-hidden" src={Slide2} alt="slide" />
+                  </div>
+                </div>
+              <div className="my-5">
+                    <ArrowLL  className="ml-3"/>
+                    
+                    <ArrorR className="ml-3" />
               </div>
-              {/* <CarouselControl
-                direction="prev"
-                directionText="Previous"
-                onClickHandler={previous}
-              />
-              <CarouselControl
-                direction="next"
-                directionText="Next"
-                onClickHandler={next}
-              /> */}
-            </Carousel>
+        
           </div>
         </Col>
       </Row>

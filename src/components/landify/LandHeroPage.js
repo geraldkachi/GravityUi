@@ -8,10 +8,8 @@ const LandHeroPage = () => {
   return (
     <>
       <div className="">
-        <div className="min-vh-100">
           <LandNav />
           <LandHero />
-        </div>
       </div>
       <LandTailor className="min-vh-100 mx-auto" />
       <LandStory className="min-vh-100 mx-auto" />

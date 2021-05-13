@@ -33,9 +33,9 @@ const DiscoverGravity = () => {
                     <div className="col-md-4"><img src={discover2} alt="discover2" className="my-3 img-fluid" /></div>
                     <div className="col-md-4"> 
                         <div>
-                            <img src={discover3} className="img-fluid"  style={{ height:'8000%', width:"8000%"}} alt="1" /> 
+                            <img src={discover3} className="img-fluid"  alt="1" /> 
                         </div>
-                        <img src={discover31} className="img-fluid position-absolute text-center" style={{top: 100, left: 100, }} alt="31" /> 
+                        <img src={discover31} className="img-fluid position-absolute text-center" style={{top: 150, left: 180, }} alt="31" /> 
                     </div>
             </Row>
             <Row  className="justify-content-center align-items-center text-center my-3" >
