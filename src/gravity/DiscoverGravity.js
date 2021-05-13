@@ -48,7 +48,7 @@ const DiscoverGravity = () => {
                     <p className="lead">It picks up the words on the page and displays ads that are similar to those words. Then when someone either performs an action or clicks on your page you will get paid.</p>
                 </Col>
                 <Col md="4" className="justify-content-end d-flex my-3">
-                    <button className="btn-lg btn border-0 rounded-0" style={{backgroundColor:' #4737FF', color: 'white', width:'222px', height:"50px"}}>see our works</button>
+                    <button className="btn-lg btn rounded-0" style={{backgroundColor:' #4737FF', color: 'white', width:'222px', height:"50px"}}>see our works</button>
                 </Col>
             </Row>
         </div>

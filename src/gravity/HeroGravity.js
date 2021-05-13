@@ -24,7 +24,7 @@ const HeroGravity = () => {
                         <div className="pt-3" style={{position:''}}>
                                 <div className="h2" style={{fontSize:"60px", fontWeight: 700}}>Work around you and your team</div>
                                 <p className="lead text-left py-3" style={{fontFamily:'Fira Sans', color:'#222'}}>From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type of technology “rich media” to attract consumers.</p>
-                                <button className="btn border-0 btn-lg p-3 my-4" style={{backgroundColor:'#4737FF', color:"white", width: '189px'}}>Get Started</button>
+                                <button className="btn rounded-0 btn-lg p-3 my-4" style={{backgroundColor:'#4737FF', color:"white", width: '189px'}}>Get Started</button>
                         </div>
                         <div className="d-flex justify-content-evenly align-items-center my-5"> 
                             <span>01</span> 
