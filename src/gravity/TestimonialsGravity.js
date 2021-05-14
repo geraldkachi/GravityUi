@@ -3,7 +3,7 @@ import {
   Carousel,
   CarouselItem,
   // CarouselControl,
-  // CarouselIndicators,
+  CarouselIndicators,
   CarouselCaption,
   Row,
   Col,
@@ -66,10 +66,10 @@ const TestimonialsGravity = () => {
     setActiveIndex(nextIndex);
   };
 
-  // const goToIndex = (newIndex) => {
-  //   if (animating) return;
-  //   setActiveIndex(newIndex);
-  // };
+  const goToIndex = (newIndex) => {
+    if (animating) return;
+    setActiveIndex(newIndex);
+  };
 
   const slides = items.map((item) => {
     return (
@@ -105,9 +105,6 @@ const TestimonialsGravity = () => {
     );
   });
 
-  // return (
-
-  // );
 
   return (
     <div className="" style={{ backgroundColor: "#E5E5E5" }}>
@@ -121,6 +118,12 @@ const TestimonialsGravity = () => {
                 next={next}
                 previous={previous}
               >
+                <CarouselIndicators
+                className="d-none"
+                items={items}
+                activeIndex={activeIndex}
+                onClickHandler={goToIndex}
+              />
                 {slidestext}
               </Carousel>
               <div className="my-4" >
@@ -129,6 +132,7 @@ const TestimonialsGravity = () => {
               </div>
             </div>
           </Col>
+
           <Col md="6">
             <Carousel
               interval={false}
@@ -136,11 +140,12 @@ const TestimonialsGravity = () => {
               next={next}
               previous={previous}
             >
-              {/* <CarouselIndicators
+              <CarouselIndicators
+              className="d-none"
                 items={items}
                 activeIndex={activeIndex}
                 onClickHandler={goToIndex}
-              /> */}
+              />
               {slides}
               {/* <CarouselControl
                 direction="prev"
@@ -161,3 +166,4 @@ const TestimonialsGravity = () => {
 };
 
 export default TestimonialsGravity;
+
